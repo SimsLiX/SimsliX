@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios sobre CineLix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .comment {
+            margin-bottom: 1em;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Comentarios sobre CineLix</h1>
+    </header>
+
+    <section>
+        <div class="comment">
+            <h3>Paulo Peres</h3>
+            <p>Excelente plataforma, ¡me encanta la variedad de películas que ofrecen!</p>
+        </div>
+
+        <div class="comment">
+            <h3>Cosmodo 3000</h3>
+            <p>La calidad de transmisión es asombrosa. Definitivamente, CineLix eleva la experiencia cinematográfica.</p>
+        </div>
+        
+        <h2>Deja tu Comentario</h2>
+        <form id="commentForm">
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="usercomment">Comentario:</label>
+            <textarea id="usercomment" name="usercomment" rows="4" required></textarea>
+            
+            <button type="submit">Enviar Comentario</button>
+        </form>
+    </section>
+
+</body>
+</html>
+
